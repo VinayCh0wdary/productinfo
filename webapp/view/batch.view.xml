@@ -1,0 +1,118 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:tnt="sap.tnt"
+	controllerName="com.mindset.cs.productinfo.controller.batch" xmlns:layout="sap.ui.layout" xmlns:form="sap.ui.layout.form">
+	<Page id="page" title="{i18n>}">
+		<layout:Grid defaultSpan="L12 M12 S12">
+			<layout:content>
+				<tnt:ToolHeader id="th" class="header">
+					<core:Icon src="sap-icon://home" class="img"/>
+					<Text text="Medtronic" wrapping="false" class="font"/>
+					<ToolbarSpacer/>
+					<Text text="Batch" wrapping="false" class="text"/>
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://user-settings" text="username" type="Transparent" class="user"/>
+					<Button icon="sap-icon://dropdown" type="Transparent" class="drop"/>
+				</tnt:ToolHeader>
+				<form:SimpleForm editable="true" layout="ResponsiveGridLayout" labelSpanM="12" labelSpanL="12" labelSpanXL="12" emptySpanL="6" emptySpanM="6">
+				<form:content>
+					<Label text="Products" labelFor="multiInput"/>
+					<Input
+						id="input"
+						showValueHelp="true"
+						valueHelpOnly="true"
+						valueHelpRequest=".onValueHelpRequested"
+						suggestionItems="{
+							path: '/ProductCollection',
+							sorter: { path: 'Name' }
+						}"
+					>
+						<core:Item key="{ProductId}" text="{Name} ({ProductId})" />
+					</Input>
+				</form:content>
+			</form:SimpleForm>
+				<form:SimpleForm editable="true" layout="ResponsiveGridLayout" labelSpanM="12" labelSpanL="12" labelSpanXL="12" emptySpanL="6"
+					emptySpanM="6">
+					<form:content>
+						<Label text="Batch" labelFor="multiInput"/>
+						<Input placeholder="0008803645" showSuggestion="true" showValueHelp="true" valueHelpRequest=".onValueHelpRequest" id="input20"></Input>
+						<Button xmlns="sap.m" text="Go" id="button0" width="25%" press=".onPress"/>
+					</form:content>
+				</form:SimpleForm>
+				<Toolbar width="100%" height="1px"/>
+				<Label text="Result for batch" class="days"></Label>
+				<Input editable="false" id="text20" class="days" width="15%"/>
+			</layout:content>
+		</layout:Grid>
+		<content>
+			<Table noDataText="nodata" id="table0" items="{/BatchSet}">
+				<items>
+					<ColumnListItem type="Active" id="item1">
+						<cells>
+							<Text text="{district}" id="text7"/>
+							<Text text="{territory}" id="text8"/>
+							<Text text="{sold_to}" id="text9"/>
+							<Text text="{ssp}" id="text10"/>
+							<Link text="{order}" id="text11" press="onOrder"/>
+							<Text text="{qty}" id="text12"/>
+							<Text text="{exp_date}" id="text13"/>
+							<Text text="{pgi_date}" id="text14"/>
+							<Text text="{order_type}" id="text15"/>
+							<Text text="{user_id}" id="text16"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+				<columns>
+					<Column id="column3">
+						<header>
+							<Label text="{i18n>district}" id="label3"/>
+						</header>
+					</Column>
+					<Column id="column4">
+						<header>
+							<Label text="{i18n>territory}" id="label4"/>
+						</header>
+					</Column>
+					<Column id="column5">
+						<header>
+							<Label text="{i18n>sold_to}" id="label5"/>
+						</header>
+					</Column>
+					<Column id="column6">
+						<header>
+							<Label text="{i18n>ssp}" id="label6"/>
+						</header>
+					</Column>
+					<Column id="column7">
+						<header>
+							<Label text="{i18n>order}" id="label7"/>
+						</header>
+					</Column>
+					<Column id="column8">
+						<header>
+							<Label text="{i18n>qty}" id="label8"/>
+						</header>
+					</Column>
+					<Column id="column110">
+						<header>
+							<Label text="{i18n>exp_date}" id="label110"/>
+						</header>
+					</Column>
+					<Column id="column10">
+						<header>
+							<Label text="{i18n>pgi_date}" id="label10"/>
+						</header>
+					</Column>
+					<Column id="column11">
+						<header>
+							<Label text="{i18n>order_type}" id="label11"/>
+						</header>
+					</Column>
+					<Column id="column12">
+						<header>
+							<Label text="{i18n>user_id}" id="label12"/>
+						</header>
+					</Column>
+				</columns>
+			</Table>
+		</content>
+	</Page>
+</mvc:View>

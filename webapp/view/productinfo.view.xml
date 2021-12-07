@@ -1,0 +1,131 @@
+<mvc:View controllerName="com.mindset.cs.productinfo.controller.productinfo" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt"
+	xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>}">
+					<content>
+						<tnt:ToolHeader id="th" class="header">
+							<core:Icon src="sap-icon://home" class="img"/>
+							<Text text="Medtronic" wrapping="false" class="font"/>
+							<ToolbarSpacer/>
+							<Text text="Product Info" wrapping="false" class="text"/>
+							<ToolbarSpacer/>
+							<Button icon="sap-icon://user-settings" text="username" type="Transparent" class="user"/>
+							<Button icon="sap-icon://dropdown" type="Transparent" class="drop"/>
+						</tnt:ToolHeader>
+						<VBox class="sapUiSmallMargin">
+							<f:SimpleForm id="SimpleFormChangeColumn_oneGroup2" editable="true" layout="ColumnLayout" columnsM="2" columnsL="3" columnsXL="4">
+								<f:content>
+									<Label text="{i18n>CFN}"/>
+									<Input xmlns="sap.m" id="input0" placeholder="Enter CFN"/>
+									<Label text="{i18n>Account}"/>
+									<Input xmlns="sap.m" id="input23" placeholder="Enter Account Number"/>
+									<Label text="{i18n>Division}"/>
+									<ComboBox xmlns="sap.m" id="box01" maxWidth="300%" class="sapUiSmallMarginEnd">
+										<items>
+											<core:Item xmlns:core="sap.ui.core" key="item-1-key" text="{i18n>5}" id="item10"/>
+											<core:Item xmlns:core="sap.ui.core" key="item-2-key" text="{i18n>3}" id="item11"/>
+										</items>
+									</ComboBox>
+									<Label text="{i18n>Batch}"/>
+									<Input xmlns="sap.m" id="input24" placeholder="Enter Batch"/>
+									<Label text="Plant"/>
+									<Input xmlns="sap.m" id="input25" placeholder="Enter Plant"/>
+									<Label text=""/>
+								</f:content>
+							</f:SimpleForm>
+							<FlexBox height="15px" alignItems="End" justifyContent="End">
+								<Button text="Go" type="Emphasized" id="button0" press=".onPress" width="30%" class="sapUiSmallMarginEnd"/>
+							</FlexBox>
+						</VBox>
+						<Toolbar width="100%" height="1px" class="sapUiSmallMarginBottom"/>
+						<Label text="Products" width="40%" id="label0_1634566959938" class="sapUiSmallMarginBottom"/>
+						<Table noDataText="no data" id="table0" items="{/ProductSet}">
+							<items>
+								<ColumnListItem type="Active" id="item0_1634566994285">
+									<cells>
+										<Text text="{CFN}" id="text3" width="125px"/>
+										<Text text="{MaterialDescription}" id="text4" width="200px"/>
+										<Text text="{Division}" id="text5"/>
+										<Text text="{Plant}" id="text6"/>
+										<Text text="{PlantName}" id="text7" width="140px"/>
+										<Text text="{Qty}" id="text8"/>
+										<Text text="{UoM}" id="text9"/>
+										<Link text="{Batch}" id="text10" press="onBatch" width="100px"/>
+										<Text text="{DaysToExpiry}" id="text11"/>
+										<Text text="{ExpiryDate}" id="text12" width="100px"/>
+										<Text text="{StdPrice}" id="text13"/>
+										<Text text="{ContractPrice}" id="text14"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+							<columns>
+								<Column mergeDuplicates="true" id="column0" class="blue" width="150px">
+									<header>
+										<Label text="{i18n>CFN}" id="label1_1634566994285"/>
+									</header>
+								</Column>
+								<Column id="column1" width="240px">
+									<header>
+										<Label text="Material Description" width="100%" id="label2_1634566994285"/>
+									</header>
+								</Column>
+								<Column id="column2">
+									<header>
+										<Label text="Division" id="label3"/>
+									</header>
+								</Column>
+								<Column id="column4">
+									<header>
+										<Label text="Plant" id="label2_16345669942852"/>
+									</header>
+								</Column>
+								<Column id="column5" width="140px">
+									<header>
+										<Label text="Plant Name" id="label2_16345669942855"/>
+									</header>
+								</Column>
+								<Column id="column6">
+									<header>
+										<Label text="{i18n>Qty}" id="label2_16345669942856"/>
+									</header>
+								</Column>
+								<Column id="column7">
+									<header>
+										<Label text="{i18n>UoM}" id="label2_16345669942857"/>
+									</header>
+								</Column>
+								<Column id="column8" width="100px">
+									<header>
+										<Label text="Batch" id="label2_16345669942858"/>
+									</header>
+								</Column>
+								<Column id="column9">
+									<header>
+										<Label text="{i18n>DaystoExp}" id="label2_16345669942859"/>
+									</header>
+								</Column>
+								<Column id="column10" width="100px">
+									<header>
+										<Label text="{i18n>ExpDate}" id="label2_163456699428510"/>
+									</header>
+								</Column>
+								<Column id="column11">
+									<header>
+										<Label text="{i18n>StdPrice}" id="label2_163456699428511"/>
+									</header>
+								</Column>
+								<Column id="column12">
+									<header>
+										<Label text="Contract Price" id="label2_16345669942812"/>
+									</header>
+								</Column>
+							</columns>
+						</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

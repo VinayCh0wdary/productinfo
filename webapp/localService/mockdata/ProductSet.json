@@ -1,0 +1,205 @@
+[{
+	"CFN": "PXB53-05-12-080",
+	"MaterialDescription": "STENT PXB35-05-080 VISI PRO 035",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & C",
+	"Qty": "3",
+	"UoM": "EA",
+	"Batch": "A32001498",
+	"DaysToExpiry": "3",
+	"ExpiryDate": "06/27/2022",
+	"StdPrice": "$75.61",
+	"ContractPrice": "$70.23",
+	"__metadata": {
+		"uri": "ProductSet('CFN%201')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-12-080",
+	"MaterialDescription": "STENT PXB35-05-080 VISI PRO 035",
+	"Division": "5",
+	"Plant": "1140",
+	"PlantName": "Memphis Bidg A & C",
+	"Qty": "18",
+	"UoM": "EA",
+	"Batch": "A320014256",
+	"DaysToExpiry": "4",
+	"ExpiryDate": "06/29/2019",
+	"StdPrice": "$75.61",
+	"ContractPrice": "$70.23",
+	"__metadata": {
+		"uri": "ProductSet('CFN%202')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-12-080",
+	"MaterialDescription": "STENT PXB35-05-080 VISI PRO 035",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & C",
+	"Qty": "11",
+	"UoM": "EA",
+	"Batch": "A34950455",
+	"DaysToExpiry": "54",
+	"ExpiryDate": "06/29/2020",
+	"StdPrice": "$64.32",
+	"ContractPrice": "$70.23",
+	"__metadata": {
+		"uri": "ProductSet('CFN%203')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-12-081",
+	"MaterialDescription": "STENT PXB35-05-080 VISI PRO 035 V01",
+	"Division": "5",
+	"Plant": "1140",
+	"PlantName": "Memphis Bidg A & C",
+	"Qty": "19",
+	"UoM": "EA",
+	"Batch": "A3495012",
+	"DaysToExpiry": "1079",
+	"ExpiryDate": "06/29/2020",
+	"StdPrice": "$64.11",
+	"ContractPrice": "$70.23",
+	"__metadata": {
+		"uri": "ProductSet('CFN%204')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-12-081",
+	"MaterialDescription": "STENT PXB35-05-080 VISI PRO 035 V01",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & ",
+	"Qty": "3",
+	"UoM": "EA",
+	"Batch": "A320019811",
+	"DaysToExpiry": "69",
+	"ExpiryDate": "21/12/202",
+	"StdPrice": "$23.45",
+	"ContractPrice": "$70.235",
+	"__metadata": {
+		"uri": "ProductSet('CFN%205')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-12-081",
+	"MaterialDescription": "STENT PXB35-05-080 VISI PRO 035 V01",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & C6",
+	"Qty": "18",
+	"UoM": "EA",
+	"Batch": "A32001409",
+	"DaysToExpiry": "295",
+	"ExpiryDate": "12/19/1999",
+	"StdPrice": "$34.98",
+	"ContractPrice": "$70.23",
+	"__metadata": {
+		"uri": "ProductSet('CFN%206')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-12-081",
+	"MaterialDescription": "STENT PXB35-05-080 VISI PRO 035 V01",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & C",
+	"Qty": "11",
+	"UoM": "EA",
+	"Batch": "A3449778",
+	"DaysToExpiry": "294",
+	"ExpiryDate": "12/19/1998",
+	"StdPrice": "$74.25",
+	"ContractPrice": "$70.23",
+	"__metadata": {
+		"uri": "ProductSet('CFN%207')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-27-135",
+	"MaterialDescription": "PXB35-05-27-135-STENT VISI PRO 035",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & C8",
+	"Qty": "1",
+	"UoM": "EA",
+	"Batch": "A3200146",
+	"DaysToExpiry": "1",
+	"ExpiryDate": "06/19/2019",
+	"StdPrice": "$23.56",
+	"ContractPrice": "$70.23",
+	"__metadata": {
+		"uri": "ProductSet('CFN%208')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-27-135",
+	"MaterialDescription": "PXB35-05-27-135-STENT VISI PRO 035",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & ",
+	"Qty": "1",
+	"UoM": "EA",
+	"Batch": "A32001405",
+	"DaysToExpiry": "25",
+	"ExpiryDate": "06/19/2018",
+	"StdPrice": "$45.23",
+	"ContractPrice": "$72.32",
+	"__metadata": {
+		"uri": "ProductSet('CFN%209')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-27-135",
+	"MaterialDescription": "PXB35-05-27-135-STENT VISI PRO 035",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & C",
+	"Qty": "5",
+	"UoM": "EA",
+	"Batch": "A3200141",
+	"DaysToExpiry": "35",
+	"ExpiryDate": "06/19/2021",
+	"StdPrice": "$45.34",
+	"ContractPrice": "$72.32",
+	"__metadata": {
+		"uri": "ProductSet('CFN%2010')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-27-135",
+	"MaterialDescription": "PXB35-05-27-135-STENT VISI PRO 035",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & C",
+	"Qty": "6",
+	"UoM": "KA",
+	"Batch": "A3200142",
+	"DaysToExpiry": "4",
+	"ExpiryDate": "06/19/2019",
+	"StdPrice": "$45.22",
+	"ContractPrice": "$72.32",
+	"__metadata": {
+		"uri": "ProductSet('CFN%201')",
+		"type": "NorthwindModel.Product"
+	}
+}, {
+	"CFN": "PXB53-05-27-135",
+	"MaterialDescription": "PXB35-05-27-135-STENT VISI PRO 035",
+	"Division": "3",
+	"Plant": "1139",
+	"PlantName": "Memphis Bidg A & C",
+	"Qty": "2",
+	"UoM": "EA",
+	"Batch": "A320014",
+	"DaysToExpiry": "42",
+	"ExpiryDate": "06/19/2021",
+	"StdPrice": "$62.65",
+	"ContractPrice": "$72.32",
+	"__metadata": {
+		"uri": "ProductSet('CFN%202')",
+		"type": "NorthwindModel.Product"
+	}
+}]

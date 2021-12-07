@@ -1,0 +1,267 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:cards="sap.f.cards" xmlns:tools="sap.ui.vk.tools" xmlns:f="sap.ui.layout.form"
+	xmlns:smartform="sap.ui.comp.smartform" xmlns:tnt="sap.tnt" xmlns:core="sap.ui.core"
+	controllerName="com.mindset.cs.productinfo.controller.orderdetails" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{Order Details}">
+					<content>
+						<tnt:ToolHeader>
+							<Button icon="sap-icon://home" type="Transparent"/>
+							<Text text="Medtronic" wrapping="false"/>
+							<ToolbarSpacer/>
+							<Text text="Order details" wrapping="false"/>
+							<ToolbarSpacer/>
+							<Button icon="sap-icon://user-settings" text="Username" type="Transparent"/>
+						</tnt:ToolHeader>
+						<Toolbar class="removingtoolbarline">
+                      
+                       <Title level="H4" text="{i18n>1238492 Hennepin Country Medical Center}" />
+					<ToolbarSpacer />
+					<Link
+				text="Mineapolis,MN" />
+            </Toolbar>
+            
+						<f:SimpleForm id="SimpleFormDisplay33354" editable="false" title="" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="4"
+							labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="3"
+							columnsL="3" columnsM="3" singleContainerFullSize="false">
+							<f:content>
+								<core:Title text=""/>
+								<Label text="Date"/>
+								<Text text="09/20/2009"/>
+								<Label text="Document#"/>
+								<Text text="860201"/>
+								<Label text="PO#"/>
+								<Text text="268312048"/>
+								<core:Title text=""/>
+								<Label text="Order Type"/>
+								<Text text="ZOR"/>
+								<Label text="Order Status"/>
+								<Text text="In Progress"/>
+								<Label text="Net Value"/>
+								<Text text="$17,473.29"/>
+								<core:Title text=""/>
+								<Label text=""/>
+								<Text text=""/>
+								<Label text=""/>
+								<Text text=""/>
+							</f:content>
+						</f:SimpleForm>
+
+						<IconTabBar id="idIconTabBarNoIcons" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+							<items>
+								<IconTabFilter text="Items" key="info">
+									<Toolbar>
+										<Title level="H3" text="Items"/>
+										<ToolbarSpacer/>
+										<core:Icon src="sap-icon://group-2"/>
+										<SearchField liveChange=".onSearch" id="search" width="25%" placeholder="Search "/>
+									</Toolbar>
+									<Table noDataText="No Data" id="table0" items="{ path : '/ItemSet', sorter : { path : 'invoice', group : true } }" class=".sapMColumnHeader ">
+										<items>
+											<ColumnListItem type="Active" id="item0" class=".day.sapMText">
+												<cells>
+													<Text text="{material}" id="text3"/>
+													<Text text="{quantity}" id="text4"/>
+													<Text text="{Uom}" id="text5"/>
+													<Text text="{firstdate}" id="text6"/>
+													<Text text="{netprice}" id="text7"/>
+													<Text text="{netvalue}" id="text8"/>
+													<Text text="{Division}" id="text9"/>
+													<Text text="{Delivery}" id="text10"/>
+													<Text text="{invoice}" id="text11"/>
+													<Button text="View Batch Info"/>
+												</cells>
+											</ColumnListItem>
+										</items>
+										<columns>
+											<Column id="column0">
+												<header>
+													<Label text="{i18n>Material}" id="label0"/>
+												</header>
+											</Column>
+											<Column id="column1">
+												<header>
+													<Label text="{i18n>Quant}" id="label1"/>
+												</header>
+											</Column>
+											<Column id="column2">
+												<header>
+													<Label text="{i18n>Uom}" id="label2_1634576749508"/>
+												</header>
+											</Column>
+											<Column id="column3">
+												<header>
+													<Label text="{i18n>FD}" id="label3_1634576749508"/>
+												</header>
+											</Column>
+											<Column id="column4">
+												<header>
+													<Label text="{i18n>NP}" id="label4_1634576749508"/>
+												</header>
+											</Column>
+											<Column id="column5">
+												<header>
+													<Label text="{i18n>NV}" id="label5_1634576749508"/>
+												</header>
+											</Column>
+											<Column id="column6">
+												<header>
+													<Label text="{i18n>Div}" id="label6_1634576749508"/>
+												</header>
+											</Column>
+											<Column id="column7">
+												<header>
+													<Label text="{i18n>Delivery}" id="label7_1634576749508"/>
+												</header>
+											</Column>
+											<Column id="column8">
+												<header>
+													<Label text="{i18n>Invoice}" id="label8_1634576749508"/>
+												</header>
+											</Column>
+											<Column id="column9">
+												<header>
+													<Label text="Invoice" id="label28_1634576749508"/>
+												</header>
+											</Column>
+										</columns>
+									</Table>
+								</IconTabFilter>
+								<IconTabFilter text="Notes" key="notes">
+									<Toolbar>
+										<Title level="H2" text="Notes" class="day"/>
+										<ToolbarSpacer/>
+									</Toolbar>
+									<Label text="Notes" width="25%" id="label12" design="Bold" class="sapUiMediumMarginBegin day"/>
+									<Label text="109 Credit-Request-pimenc3" width="100%" id="label112_1634574153036" class="sapUiMediumMarginBegin"/>
+									<Label text=" Notes:Email sent to finance " width="100%" id="label114" class="sapUiMediumMarginBegin"/>
+									<Label text="StatusL Open" width="100%" id="label113" class="sapUiMediumMarginBegin"/>
+								</IconTabFilter>
+								<IconTabFilter text="General Info" key="general info">
+									<Toolbar>
+										<Title level="H3" text="General Info" class="day"/>
+									</Toolbar>
+									<Title level="H3" text="PO DATA" class="sapUiLargeMarginBegin day"/>
+									<f:SimpleForm id="SimpleFormDisplay354" editable="false" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="4" labelSpanM="12"
+										labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="4" columnsL="4" columnsM="4"
+										singleContainerFullSize="false">
+										<f:content>
+											<core:Title text=""/>
+											<Label text="Label 1" class="boldt"/>
+											<Text text=""/>
+											<Label text="Field 1"/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text="Label 2"/>
+											<Text text=""/>
+											<Label text="Field 2"/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text="Label 3"/>
+											<Text text=""/>
+											<Label text="Field 3"/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text=""/>
+											<Text text=""/>
+											<Label text=""/>
+											<Text text=""/>
+										</f:content>
+									</f:SimpleForm>
+									<Toolbar>
+										<Title level="H3" text="Partner Info" class="day"/>
+									</Toolbar>
+									<f:SimpleForm id="SimpleFormDisplay3354" editable="false" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="4" labelSpanM="12"
+										labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="4" columnsL="4" columnsM="4"
+										singleContainerFullSize="false">
+										<f:content>
+											<core:Title text=""/>
+											<Label text="Label 1"/>
+											<Text text=""/>
+											<Label text="Field 1"/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text="Label 2"/>
+											<Text text=""/>
+											<Label text="Field 2"/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text=""/>
+											<Text text=""/>
+											<Label text=""/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text=""/>
+											<Text text=""/>
+											<Label text=""/>
+											<Text text=""/>
+										</f:content>
+									</f:SimpleForm>
+									<Toolbar>
+										<Title level="H2" text="Shipping" class="day"/>
+									</Toolbar>
+									<f:SimpleForm id="SimpleFormDisplay31354" editable="false" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="4" labelSpanM="12"
+										labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="4" columnsM="4"
+										singleContainerFullSize="false">
+										<f:content>
+											<core:Title text=""/>
+											<Label text="Requested Delivery"/>
+											<Text text=""/>
+											<Label text="Monday,08/05/2019"/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text="Shipping Condition"/>
+											<Text text=""/>
+											<Label text="22-FedEx Next Day"/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text="Freight Flag"/>
+											<Text text=""/>
+											<Label text="Yes"/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text="Incoterms"/>
+											<Text text=""/>
+											<Label text="CFR-90485644"/>
+											<Text text=""/>
+										</f:content>
+									</f:SimpleForm>
+									<Toolbar>
+										<Title level="H2" text="Block Status" class="day"/>
+									</Toolbar>
+									<f:SimpleForm id="SimpleFormDisplay311354" editable="false" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="4" labelSpanM="12"
+										labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="4" columnsL="4" columnsM="4"
+										singleContainerFullSize="false">
+										<f:content>
+											<core:Title text=""/>
+											<Label text="Label 1"/>
+											<Text text=""/>
+											<Label text="Field 1"/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text=""/>
+											<Text text=""/>
+											<Label text=""/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text=""/>
+											<Text text=""/>
+											<Label text=""/>
+											<Text text=""/>
+											<core:Title text=""/>
+											<Label text=""/>
+											<Text text=""/>
+											<Label text=""/>
+											<Text text=""/>
+										</f:content>
+									</f:SimpleForm>
+								</IconTabFilter>
+							</items>
+						</IconTabBar>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

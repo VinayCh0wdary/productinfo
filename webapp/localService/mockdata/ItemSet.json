@@ -1,0 +1,113 @@
+[{
+"material": "STENT PXB35-05-080 VISI PRO 035",
+"quantity": "10",
+"Uom": "EA",
+"firstdate": "8/11/2019",
+"netprice": "$157.00",
+"netvalue": "$1570.00",
+"Division": "05",
+"Delivery": "Shipped 778544363734,2282937293",
+"invoice": "invoiced 282480284",
+"__metadata": {
+"uri": "ItemSet('Material%201')",
+"type": "NorthwindModel.Item"
+}
+}, {
+"material": "43103 Cath 43103 C/P Cat",
+"quantity": "10",
+"Uom": "EA",
+"firstdate": "8/11/2019",
+"netprice": "$181.00",
+"netvalue": "$1870.00",
+"Division": "05",
+"Delivery": "Shipped 778544363734",
+"invoice": "invoiced 282480284",
+"__metadata": {
+"uri": "ItemSet('Material%202')",
+"type": "NorthwindModel.Item"
+}
+}, {
+"material": "22011 M SHUNT 22011 M INTL",
+"quantity": "10",
+"Uom": "EA",
+"firstdate": "8/11/2019",
+"netprice": "$550.00",
+"netvalue": "$5500.00",
+"Division": "03",
+"Delivery": "Shipped 778544363734",
+"invoice": "invoiced 282480284",
+"__metadata": {
+"uri": "ItemSet('Material%203')",
+"type": "NorthwindModel.Item"
+}
+}, {
+"material": "9003 A 9003 A INTL ONLY",
+"quantity": "5",
+"Uom": "EA",
+"firstdate": "8/11/2019",
+"netprice": "$378.00",
+"netvalue": "$1890.00",
+"Division": "05",
+"Delivery": "Shipped 2904023942343258",
+"invoice": "Ad Issue 283473202",
+"__metadata": {
+"uri": "ItemSet('Material%204')",
+"type": "NorthwindModel.Item"
+}
+}, {
+"material": "9003 A 9003 A INTL ONLY",
+"quantity": "5",
+"Uom": "EA",
+"firstdate": "8/11/2019",
+"netprice": "$378.00",
+"netvalue": "$1890.00",
+"Division": "05",
+"Delivery": "Shipped 2904023942343258",
+"invoice": "invoiced  283473202",
+"__metadata": {
+"uri": "ItemSet('Material%204')",
+"type": "NorthwindModel.Item"
+}
+}, {
+"material": "9003 B Kit 9003 INTL ONLY",
+"quantity": "12",
+"Uom": "EA",
+"firstdate": "8/11/2019",
+"netprice": "$155.00",
+"netvalue": "$160.00",
+"Division": "05",
+"Delivery": "Credit Blocked",
+"invoice": "invoiced  283473202",
+"__metadata": {
+"uri": "ItemSet('Material%204')",
+"type": "NorthwindModel.Item"
+}
+}, {
+"material": "9003 C 9003 C INTL ONLY",
+"quantity": "7",
+"Uom": "EA",
+"firstdate": "8/11/2019",
+"netprice": "$155.00",
+"netvalue": "$1085.00",
+"Division": "05",
+"Delivery": "Credit Blocked",
+"invoice": " invoiced 183473202",
+"__metadata": {
+"uri": "ItemSet('Material%207')",
+"type": "NorthwindModel.Item"
+}
+}, {
+"material": "14BA50D Tool 14BA50D LEGEND",
+"quantity": "5",
+"Uom": "EA",
+"firstdate": "8/11/2019",
+"netprice": "$177.00",
+"netvalue": "$886.00",
+"Division": "01",
+"Delivery": "Credit Blocked",
+"invoice": " invoiced 183473202",
+"__metadata": {
+"uri": "ItemSet('14BA50D Tool 14BA50D LEGEND')",
+"type": "NorthwindModel.Item"
+}
+}]

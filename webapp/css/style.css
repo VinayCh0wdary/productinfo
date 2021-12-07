@@ -1,0 +1,99 @@
+.sapMColumnHeader {
+    display: flex;
+    flex: 1 1 auto;
+    padding: .875rem .1rem 1rem;
+    background-color: rgb(92 190 237);
+    width: 200px;
+}
+
+.sapMBtnInner {
+    font-size: .875rem;
+    height: 2.25rem;
+    min-width: 2.25rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    border-radius: .25rem;
+    text-shadow: none;
+    background-color: rgb(10, 243, 212);
+}
+
+/* Enter your custom styles here */
+
+.font {
+    font-size: 1.5rem;
+}
+
+.img {
+    font-size: 1.5rem;
+}
+
+.text {
+    font-size: 1.2rem;
+}
+#th {
+    background-color: rgb(0, 75, 135);
+}
+.sapUiSmallMarginBottom{
+	font-size: 25px;
+	height: 50px;
+}/* Enter your custom styles here */
+
+span#__xmlview0--text10-__xmlview0--table0-0 {
+    color: red;
+}
+span#__xmlview0--text10-__xmlview0--table0-1 {
+    color: red;
+}
+span#__xmlview0--text10-__xmlview0--table0-2{
+    color: green;
+}
+span#__xmlview0--text10-__xmlview0--table0-3{
+    color: green;
+}
+span#__xmlview0--text10-__xmlview0--table0-4{
+    color: red;
+}
+span#__xmlview0--text10-__xmlview0--table0-5{
+    color: green;
+}
+span#__xmlview0--text10-__xmlview0--table0-6{
+    color: green;
+}
+span#__xmlview0--text11-__xmlview0--table0-0 {
+    color: green;
+}
+span#__xmlview0--text11-__xmlview0--table0-1 {
+    color: green;
+}
+span#__xmlview0--text11-__xmlview0--table0-2 {
+    color: green;
+}
+span#__xmlview0--text11-__xmlview0--table0-3 {
+    color: green;
+}
+span#__xmlview0--text11-__xmlview0--table0-4 {
+    color: green;
+}
+
+bdi#__xmlview0--label0 {
+    color: aqua;
+}
+
+.col{
+color: aqua;
+}
+
+.sapMColumnHeader {
+    display: flex;
+    flex: 1 1 auto;
+    padding: .875rem .5rem 1rem;
+    background-color: cornflowerblue;
+    font-color: aqua;
+   
+   
+}
+th#__xmlview0--column1 {
+    background-color: cornflowerblue;
+}
